@@ -17,7 +17,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true}>
+      <body className="no-default-scrollbar">
         <LoadProvider>{children}</LoadProvider>
       </body>
     </html>
