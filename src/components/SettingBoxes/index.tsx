@@ -1,6 +1,6 @@
-"use client";
-import React from "react";
-import Image from "next/image";
+'use client';
+import React from 'react';
+import Image from 'next/image';
 
 const SettingBoxes = () => {
   return (
@@ -9,9 +9,7 @@ const SettingBoxes = () => {
         <div className="col-span-5 xl:col-span-3">
           <div className="rounded-[10px] border border-stroke bg-white shadow-1 dark:border-dark-3 dark:bg-gray-dark dark:shadow-card">
             <div className="border-b border-stroke px-7 py-4 dark:border-dark-3">
-              <h3 className="font-medium text-dark dark:text-white">
-                Personal Information
-              </h3>
+              <h3 className="font-medium text-dark dark:text-white">Personal Information</h3>
             </div>
             <div className="p-7">
               <form>
@@ -52,8 +50,8 @@ const SettingBoxes = () => {
                         type="text"
                         name="fullName"
                         id="fullName"
-                        placeholder="Devid Jhon"
-                        defaultValue="Devid Jhon"
+                        placeholder="Zubaydulla Okhunboboyev"
+                        defaultValue="Zubaydulla Okhunboboyev"
                       />
                     </div>
                   </div>
@@ -126,8 +124,8 @@ const SettingBoxes = () => {
                       type="email"
                       name="emailAddress"
                       id="emailAddress"
-                      placeholder="devidjond45@gmail.com"
-                      defaultValue="devidjond45@gmail.com"
+                      placeholder="zubaydullacoder@gmail.com"
+                      defaultValue="zubaydullacoder@gmail.com"
                     />
                   </div>
                 </div>
@@ -168,8 +166,8 @@ const SettingBoxes = () => {
                       type="text"
                       name="Username"
                       id="Username"
-                      placeholder="devidjhon24"
-                      defaultValue="devidjhon24"
+                      placeholder="zubaydulla95"
+                      defaultValue="zubaydulla95"
                     />
                   </div>
                 </div>
@@ -233,9 +231,7 @@ const SettingBoxes = () => {
         <div className="col-span-5 xl:col-span-2">
           <div className="rounded-[10px] border border-stroke bg-white shadow-1 dark:border-dark-3 dark:bg-gray-dark dark:shadow-card">
             <div className="border-b border-stroke px-7 py-4 dark:border-dark-3">
-              <h3 className="font-medium text-dark dark:text-white">
-                Your Photo
-              </h3>
+              <h3 className="font-medium text-dark dark:text-white">Your Photo</h3>
             </div>
             <div className="p-7">
               <form>
@@ -256,12 +252,8 @@ const SettingBoxes = () => {
                       Edit your photo
                     </span>
                     <span className="flex gap-3">
-                      <button className="text-body-sm hover:text-red">
-                        Delete
-                      </button>
-                      <button className="text-body-sm hover:text-primary">
-                        Update
-                      </button>
+                      <button className="text-body-sm hover:text-red">Delete</button>
+                      <button className="text-body-sm hover:text-primary">Update</button>
                     </span>
                   </div>
                 </div>
@@ -297,12 +289,9 @@ const SettingBoxes = () => {
                       </svg>
                     </span>
                     <p className="mt-2.5 text-body-sm font-medium">
-                      <span className="text-primary">Click to upload</span> or
-                      drag and drop
+                      <span className="text-primary">Click to upload</span> or drag and drop
                     </p>
-                    <p className="mt-1 text-body-xs">
-                      SVG, PNG, JPG or GIF (max, 800 X 800px)
-                    </p>
+                    <p className="mt-1 text-body-xs">SVG, PNG, JPG or GIF (max, 800 X 800px)</p>
                   </div>
                 </div>
 
