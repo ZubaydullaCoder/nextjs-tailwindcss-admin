@@ -1,7 +1,7 @@
-"use client";
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
+'use client';
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const ProfileBox = () => {
   return (
@@ -15,8 +15,8 @@ const ProfileBox = () => {
             width={970}
             height={260}
             style={{
-              width: "auto",
-              height: "auto",
+              width: 'auto',
+              height: 'auto',
             }}
           />
           <div className="absolute bottom-1 right-1 z-10 xsm:bottom-4 xsm:right-4">
@@ -95,53 +95,38 @@ const ProfileBox = () => {
           </div>
           <div className="mt-4">
             <h3 className="mb-1 text-heading-6 font-bold text-dark dark:text-white">
-              Danish Heilium
+              Zubaydulla Okhunboboyev
             </h3>
             <p className="font-medium">Ui/Ux Designer</p>
             <div className="mx-auto mb-5.5 mt-5 grid max-w-[370px] grid-cols-3 rounded-[5px] border border-stroke py-[9px] shadow-1 dark:border-dark-3 dark:bg-dark-2 dark:shadow-card">
               <div className="flex flex-col items-center justify-center gap-1 border-r border-stroke px-4 dark:border-dark-3 xsm:flex-row">
-                <span className="font-medium text-dark dark:text-white">
-                  259
-                </span>
+                <span className="font-medium text-dark dark:text-white">259</span>
                 <span className="text-body-sm">Posts</span>
               </div>
               <div className="flex flex-col items-center justify-center gap-1 border-r border-stroke px-4 dark:border-dark-3 xsm:flex-row">
-                <span className="font-medium text-dark dark:text-white">
-                  129K
-                </span>
+                <span className="font-medium text-dark dark:text-white">129K</span>
                 <span className="text-body-sm">Followers</span>
               </div>
               <div className="flex flex-col items-center justify-center gap-1 px-4 xsm:flex-row">
-                <span className="font-medium text-dark dark:text-white">
-                  2K
-                </span>
+                <span className="font-medium text-dark dark:text-white">2K</span>
                 <span className="text-body-sm-sm">Following</span>
               </div>
             </div>
 
             <div className="mx-auto max-w-[720px]">
-              <h4 className="font-medium text-dark dark:text-white">
-                About Me
-              </h4>
+              <h4 className="font-medium text-dark dark:text-white">About Me</h4>
               <p className="mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque posuere fermentum urna, eu condimentum mauris
-                tempus ut. Donec fermentum blandit aliquet. Etiam dictum dapibus
-                ultricies. Sed vel aliquet libero. Nunc a augue fermentum,
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere
+                fermentum urna, eu condimentum mauris tempus ut. Donec fermentum blandit aliquet.
+                Etiam dictum dapibus ultricies. Sed vel aliquet libero. Nunc a augue fermentum,
                 pharetra ligula sed, aliquam lacus.
               </p>
             </div>
 
             <div className="mt-4.5">
-              <h4 className="mb-3.5 font-medium text-dark dark:text-white">
-                Follow me on
-              </h4>
+              <h4 className="mb-3.5 font-medium text-dark dark:text-white">Follow me on</h4>
               <div className="flex items-center justify-center gap-3.5">
-                <Link
-                  href="#"
-                  className="hover:text-primary"
-                  aria-label="social-icon"
-                >
+                <Link href="#" className="hover:text-primary" aria-label="social-icon">
                   <svg
                     className="fill-current"
                     width="22"
@@ -164,11 +149,7 @@ const ProfileBox = () => {
                   </svg>
                 </Link>
 
-                <Link
-                  href="#"
-                  className="hover:text-primary"
-                  aria-label="social-icon"
-                >
+                <Link href="#" className="hover:text-primary" aria-label="social-icon">
                   <svg
                     className="fill-current"
                     width="22"
@@ -186,11 +167,7 @@ const ProfileBox = () => {
                   </svg>
                 </Link>
 
-                <Link
-                  href="#"
-                  className="hover:text-primary"
-                  aria-label="social-icon"
-                >
+                <Link href="#" className="hover:text-primary" aria-label="social-icon">
                   <svg
                     className="fill-current"
                     width="23"
@@ -207,22 +184,13 @@ const ProfileBox = () => {
                     </g>
                     <defs>
                       <clipPath id="clip0_1676_1812">
-                        <rect
-                          width="22"
-                          height="22"
-                          fill="white"
-                          transform="translate(0.333984)"
-                        />
+                        <rect width="22" height="22" fill="white" transform="translate(0.333984)" />
                       </clipPath>
                     </defs>
                   </svg>
                 </Link>
 
-                <Link
-                  href="#"
-                  className="hover:text-primary"
-                  aria-label="social-icon"
-                >
+                <Link href="#" className="hover:text-primary" aria-label="social-icon">
                   <svg
                     className="fill-current"
                     width="22"
@@ -245,11 +213,7 @@ const ProfileBox = () => {
                   </svg>
                 </Link>
 
-                <Link
-                  href="#"
-                  className="hover:text-primary"
-                  aria-label="social-icon"
-                >
+                <Link href="#" className="hover:text-primary" aria-label="social-icon">
                   <svg
                     className="fill-current"
                     width="23"
@@ -266,12 +230,7 @@ const ProfileBox = () => {
                     </g>
                     <defs>
                       <clipPath id="clip0_1676_1820">
-                        <rect
-                          width="22"
-                          height="22"
-                          fill="white"
-                          transform="translate(0.666016)"
-                        />
+                        <rect width="22" height="22" fill="white" transform="translate(0.666016)" />
                       </clipPath>
                     </defs>
                   </svg>

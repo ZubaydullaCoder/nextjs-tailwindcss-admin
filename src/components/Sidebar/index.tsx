@@ -314,13 +314,13 @@ const Sidebar = () =>
               <Image
                 width={176}
                 height={32}
-                src={'/images/logo/logo-dark.svg'}
+                src={'/logoipsium.svg'}
                 alt="Logo"
                 priority
-                className="dark:hidden"
+                // className="dark:hidden"
                 style={{ width: 'auto', height: 'auto' }}
               />
-              <Image
+              {/* <Image
                 width={176}
                 height={32}
                 src={'/images/logo/logo.svg'}
@@ -328,7 +328,7 @@ const Sidebar = () =>
                 priority
                 className="hidden dark:block"
                 style={{ width: 'auto', height: 'auto' }}
-              />
+              /> */}
             </Link>
 
             <button onClick={() => setSidebarOpen(!sidebarOpen)} className="block lg:hidden">
